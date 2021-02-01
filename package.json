@@ -1,7 +1,8 @@
-{  "homepage": "https://eviedegala.com/",
+{  
   "name": "evie-de-gala",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://blasyx.github.io/Eviedegala-web/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
@@ -14,6 +15,8 @@
   },
 
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

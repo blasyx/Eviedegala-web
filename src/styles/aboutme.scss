@@ -1,0 +1,59 @@
+
+
+/* ---------------------ABOUT ME--------------------- */
+
+.aboutme{
+    background: $green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    text-align: center;
+    padding: 2rem;
+        
+        &-title{
+            font-family: 'loverica';
+            font-size: 3rem;
+            position: relative;
+            z-index: 20;
+            padding: 2rem;
+            color: $brown-text;
+        }
+
+        &-bio{
+            font-family: 'josefina';
+            font-size: 1rem;
+            line-height: 1.2rem;
+            padding-bottom: 4rem;
+            position: relative;
+            z-index: 20;
+            text-align: justify;
+            padding: 2rem 0rem;
+            color: $brown-text;
+
+            a{
+                color: #fff
+            }
+        }
+        &-img{
+            display: none;
+        }
+        &-circle{
+            position: absolute;
+            width: calc(100% - 4rem);
+            height: auto;   
+            display: flex;
+            justify-content: center; 
+            top: 10%;
+
+            &-shape{
+                width: 10rem;
+                height: 10rem;
+                border-radius: 50%;
+                background-color: $green2;
+                left: 25%;
+                top: 13%;
+                z-index: 5;
+            }
+        }
+}

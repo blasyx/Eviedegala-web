@@ -1,0 +1,70 @@
+/* ---------------------MENU--------------------- */
+
+@media only screen and (min-width: 320px){
+
+header{
+    position:fixed;
+    z-index: 100;
+    width: 100%;
+    background-color: $green;
+}
+.menu{
+        height: 8vh;
+}
+nav{ 
+        padding: 0rem 0rem;
+        background: $green;  
+    
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+        li{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            list-style-type: none;
+            font-family: 'alata';
+            font-size: 0.85rem;
+
+            a{
+                text-decoration: none;
+                color: white
+            }
+        }
+    }
+
+}
+}
+@media only screen and (max-width: 319px){
+
+.menu{
+    width: 100vw;
+    height: auto;
+    background-color: $green;
+}
+nav{ 
+        padding: 0rem 0rem;
+        background: $green;  
+    
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        li{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            list-style-type: none;
+            font-family: 'alata';
+            font-size: 0.85rem;
+
+            a{
+                text-decoration: none;
+                color: white
+            }
+        }
+    }}
+
+}

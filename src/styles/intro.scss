@@ -1,0 +1,85 @@
+/* ---------------------INTRO--------------------- */
+
+.intro{
+    background: $green;
+    height: 100vh;
+    color: $brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+
+
+    /* ---------------------left start--------------------- */
+    &-left{
+        margin: 0rem 0.3rem;
+        text-align: center;
+        position: relative;
+        z-index: 20;
+            &-title{
+                font-family: 'loverica';
+                font-size: 3.3rem;
+                padding: 2rem 0rem 1rem 0rem;
+                line-height: 1.6rem;
+                z-index: 100;
+                color: $brown-text;
+            }   
+            
+            &-subtitle{
+                font-family: 'alata';
+                font-size: 1rem;
+                letter-spacing: 4px;
+                padding: 0rem;
+                margin-bottom: 3rem;
+                color: $brown-text;
+            }
+            
+            &-text{
+                font-family: 'josefina';
+                font-size: 1.2rem;
+                padding: 1.5rem 4rem;
+                margin-bottom: 1rem; 
+                color: $brown-text;
+            }
+
+    }
+/* ---------------------left end--------------------- */
+
+/* ---------------------right start--------------------- */
+
+    &-right{
+        color: $brown;
+        background-color: $green;
+        position: relative;
+        z-index: 20;
+    }
+    
+    .intro-img{
+        display: flex;
+        justify-content: space-evenly;
+    img{
+        width: 40vw;
+        box-shadow: -3px -3px 20px $black2;
+    }
+}
+
+    &-circle{
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        border: 5rem $green2 solid;
+        background-color: $black2;
+        transform: translateX(-25%) scale(0);
+        left: 25%;
+        top: 15%;
+        z-index: 10;
+
+    }
+/* ---------------------right ends--------------------- */
+
+
+}
+
+/* ---------------------intro ends--------------------- */

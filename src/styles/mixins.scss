@@ -1,0 +1,19 @@
+
+
+@mixin center-content-h{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@mixin center-content-v{
+    display: block;
+    margin-top: auto;
+     margin-bottom: auto;
+}
+
+@mixin text-degrade{
+    background: $brown;
+   -webkit-background-clip: text;
+     color: transparent;
+}

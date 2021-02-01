@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: 'alata';
+    src: url('../fonts/Alata-Regular.ttf');
+}
+@font-face{
+    font-family: 'josefina';
+    src: url('../fonts/JosefinSans-VariableFont_wght.ttf');
+}
+@font-face{
+    font-family: 'loverica';
+    src: url('../fonts/Loverica.otf');
+}
+.show1, .show2, .show3, .show4, .show5, .show6, .show7, .show8, .show9, .show10, .show12, .show13, .showcircle1{
+    opacity: 0;
+}
+.show7{
+    position: relative;
+    z-index: 20;
+}
+
+
+.showtext{
+    animation: aparecer  500ms ease-in; 
+    animation-delay: 100ms;
+    animation-fill-mode: forwards;
+  }
+@keyframes aparecer {
+0% {
+    opacity: 0;
+    transform: translateY(70px);
+}
+100% {
+    opacity: 1;
+    transform: translateY(0px);
+}
+}
+
+
+.showtext2{
+    animation: aparecer2  500ms ease-in; 
+    animation-delay: 300ms;
+    animation-fill-mode: forwards;
+  }
+@keyframes aparecer2 {
+0% {
+    opacity: 0;
+    transform: translateX(70px);
+}
+100% {
+    opacity: 1;
+    transform: translateX(0px);
+}
+}
+
+.showtext2b{
+    animation: aparecer2b  500ms ease-in; 
+    animation-delay: 600ms;
+    animation-fill-mode: forwards;
+  }
+@keyframes aparecer2b {
+0% {
+    opacity: 0;
+    transform: translateX(-70px);
+}
+100% {
+    opacity: 1;
+    transform: translateX(0px);
+}
+}
+
+
+.showtext3{
+    animation: aparecer3  500ms ease-in; 
+    animation-delay: 600ms;
+    animation-fill-mode: forwards;
+  }
+@keyframes aparecer3 {
+0% {
+    opacity: 0;
+    transform: translateY(70px);
+}
+100% {
+    opacity: 1;
+    transform: translateY(0px);
+}
+}
+
+.showtextcircle{
+    animation: aparecer3  500ms ease-in; 
+    animation-delay: 600ms;
+    animation-fill-mode: forwards;
+  }
+@keyframes aparecer3 {
+0% {
+    opacity: 0;
+    transform:  scale(0);
+}
+100% {
+    opacity: 1;
+    transform: translateX(0%) scale(1);
+}
+}
